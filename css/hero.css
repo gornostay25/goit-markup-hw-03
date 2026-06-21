@@ -1,21 +1,32 @@
 .hero {
-  background-color: var(--color-contrast-high);
+  background-color: var(--navy-blue);
+  padding: 188px 0;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
-  color: var(--color-surface-primary);
+  color: var(--white);
   text-align: center;
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .hero-button {
   cursor: pointer;
-  color: var(--color-surface-primary);
-  background-color: var(--color-brand-default);
+  color: var(--white);
+  background-color: var(--iris);
   font-weight: 500;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--color-brand-pressed);
+  background-color: var(--ocean);
 }
