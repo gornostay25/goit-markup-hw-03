@@ -1,0 +1,21 @@
+.hero {
+  background-color: var(--color-contrast-high);
+}
+
+.hero-title {
+  color: var(--color-surface-primary);
+  text-align: center;
+}
+
+.hero-button {
+  cursor: pointer;
+  color: var(--color-surface-primary);
+  background-color: var(--color-brand-default);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-brand-pressed);
+}

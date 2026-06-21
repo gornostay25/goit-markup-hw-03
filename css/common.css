@@ -1,0 +1,71 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --font-family-logo: 'Raleway', sans-serif;
+
+  /* colors */
+  --color-brand-default: #4d5ae5; /* IRIS */
+  --color-brand-pressed: #404bbf; /* OCEAN */
+
+  --color-text-primary: #434455; /* SLATE */
+  --color-text-secondary: #8e8f99; /* LIGHT SLATE */
+
+  --color-contrast-high: #2e2f42; /* NAVY BLUE */
+  --color-accent-subtle: #e7e9fc; /* CORNFLOWER */
+
+  --color-success: #31d0aa; /* GREEN */
+
+  --color-surface-primary: #ffffff; /* WHITE */
+  --color-surface-default: #f4f4fd; /* CLOUD */
+  --color-surface-hero: #2e2f42; /* GREY */
+  --color-surface-modal: #fcfcfc; /* DAIRY */
+  --color-overlay-modal: #2e2f42; /* NAVY BLUE MODAL */
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--color-text-primary);
+  background-color: var(--color-surface-primary);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--color-contrast-high);
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-contrast-high);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-link {
+  text-decoration: none;
+  font-family: var(--font-family-logo);
+  color: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: var(--color-brand-default);
+}

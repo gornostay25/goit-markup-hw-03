@@ -1,0 +1,31 @@
+.header {
+  color: var(--color-contrast-high);
+}
+
+.header-nav {
+  font-weight: 500;
+}
+
+.header-nav-link {
+  color: var(--color-contrast-high);
+  text-decoration: none;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--color-brand-pressed);
+}
+
+.header-contacts {
+  font-style: normal;
+}
+
+.header-contacts-link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--color-brand-pressed);
+}

@@ -1,0 +1,19 @@
+.team {
+  background-color: var(--color-surface-default);
+}
+
+.team-title {
+  text-align: center;
+}
+
+.team-card {
+  background-color: var(--color-surface-primary);
+}
+
+.team-name {
+  text-align: center;
+}
+
+.team-role {
+  text-align: center;
+}
